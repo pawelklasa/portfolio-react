@@ -9,8 +9,7 @@ export class Contact extends React.Component {
             
             <div className="container">
                 <div classNAme="bg-light">
-                    <h1>Contact</h1>
-                    
+                    <h1>Contact</h1>         
                     <p>some content goes here</p>
                 </div>
             </div>
