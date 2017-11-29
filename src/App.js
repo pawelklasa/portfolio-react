@@ -10,9 +10,10 @@ import './Assets/css/default.css'
 //components
 import { NavBar } from './components/navBar';
 import { Footer } from './components/footer';
-import { Homepage } from './components/pages/homePage.js';
+import { Projects } from './components/pages/projects.js';
 import { Features } from './components/pages/features.js';
 import { Contact } from './components/pages/contact.js';
+import { Sky } from './components/pages/sky.js';
 
 
 class App extends Component {
@@ -21,9 +22,10 @@ class App extends Component {
       <Router>
           <div>
               <NavBar />
-                  <Route exact path='/' component={Homepage} />
+                  <Route exact path='/' component={Projects} />
                   <Route exact path='/features' component={Features} />
                   <Route exact path='/contact' component={Contact} />
+                  <Route exact path='/sky' component={Sky} />
               <Footer />
           </div>
       </Router>
