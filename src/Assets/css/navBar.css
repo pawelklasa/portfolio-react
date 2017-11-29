@@ -1,12 +1,33 @@
 .navbar {
-    border-bottom: 1px solid #fff;
-    box-shadow: 1px 1px px #ddd;
-}
+    border-bottom: 2px solid #fff;
+    box-shadow: 0px 1px 0px #fafafa;
+    background-color: #fafafa;
+} 
 
 .navbar-brand {
     font-size: 20px;
+    color: #213347;
 }
 
 li {
     font-size: 22px;
+}
+
+a {
+    color:#247BA0;
+    /* First we need to help some browsers along for this to work.
+       Just because a vendor prefix is there, doesn't mean it will
+       work in a browser made by that vendor either, it's just for
+       future-proofing purposes I guess. */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+  }
+  
+  a:hover { 
+      text-decoration: none;
+      color:#FF1654; 
 }
