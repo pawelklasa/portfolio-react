@@ -1,0 +1,12 @@
+.navbar {
+    border-bottom: 1px solid #fff;
+    box-shadow: 1px 1px px #ddd;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+li {
+    font-size: 22px;
+}
