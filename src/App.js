@@ -11,24 +11,28 @@ import './Assets/css/default.css'
 //components
 import { NavBar } from './components/navBar';
 import { Footer } from './components/footer';
-import { Projects } from './components/pages/projects.js';
-import { Features } from './components/pages/features.js';
-import { Contact } from './components/pages/contact.js';
-import { Sky } from './components/pages/sky.js';
+import { Home } from './components/pages/home';
+import { Projects } from './components/pages/projects';
+import { Features } from './components/pages/features';
+import { Contact } from './components/pages/contact';
+import { Sky } from './components/pages/sky';
 
 
 class App extends Component {
   render() {
     return (
       <Router>
-          <div>
+        <div className="bg">
+          <div className="long">
               <NavBar />
-                  <Route exact path='/' component={Projects} />
+                  <Route exact path='/' component={Home} />
+                  <Route exact path='/projects' component={Projects} />
                   <Route exact path='/features' component={Features} />
                   <Route exact path='/contact' component={Contact} />
                   <Route exact path='/sky' component={Sky} />
               <Footer />
           </div>
+        </div>
       </Router>
     );
   }
