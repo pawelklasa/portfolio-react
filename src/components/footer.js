@@ -6,7 +6,7 @@ export class Footer extends React.Component {
         return (
             <div>            
                 <footer class="container-fluid w-100 bg-faded footer">
-                    coded and designed by pawel klasa
+                    <i class="fa fa-copyright" aria-hidden="true"></i>oded and designed by pawel klasa
                 </footer>     
             </div>
         )

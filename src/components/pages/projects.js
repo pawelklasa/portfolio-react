@@ -26,7 +26,7 @@ export class Projects extends React.Component {
                     <div className="card col-sm-12 col-md-6 col-lg-3 pl-0 pr-0 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1">
                         <img src="https://wallpaperscraft.com/image/plane_sky_clouds_airport_hdr_64662_3840x2160.jpg" class="img-fluid" alt="Responsive" />
                         <p>
-                            Title
+                            TalkTalk
                         </p>
                     </div>
                     <div className="card col-sm-12 col-md-6 col-lg-3 pl-0 pr-0 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1">

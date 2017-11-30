@@ -5,17 +5,17 @@
 } 
 
 .navbar-brand {
-    font-family: 'Amatic SC', cursive;
-    font-size: 22px;
+
+    font-size: 16px;
     color: #213347;
 }
 
 .navbar-text {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 li {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 a {
