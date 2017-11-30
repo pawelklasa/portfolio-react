@@ -26,11 +26,11 @@ export class NavBar extends React.Component {
                             <Link to='/contact'>Contact </Link>
                         </li>
                         <li className="nav-item mr-2">
-                            <a href="https://medium.com/pavcoding" target="_blank">Medium</a>
+                            <a href="https://medium.com/pavcoding" target="_blank" rel="noopener noreferrer">Medium</a>
                         </li>
                     </ul>
                     <span className="navbar-text">
-                        View this on <a href="https://github.com/pawelklasa/portfolio-react" target="_blank">GitHub</a>
+                        View this on <a href="https://github.com/pawelklasa/portfolio-react" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </span>
                 </div>
             </nav>
