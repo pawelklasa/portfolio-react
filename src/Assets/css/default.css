@@ -2,6 +2,12 @@ body {
     background-color: #e5e3d3;
     font-family: 'Open Sans', sans-serif;
     color: #213347;
+    height: 100%;
 }
 
-
+.footer {
+    font-size: 11px;
+    background-color: #fafafa;
+    position: fixed;
+    bottom: 0px;
+}
