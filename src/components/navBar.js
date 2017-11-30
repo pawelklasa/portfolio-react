@@ -17,13 +17,16 @@ export class NavBar extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active mr-2">
-                            <Link to='/'>Projects</Link>
+                            <Link to='/'>Projects </Link>
                         </li>
                         <li className="nav-item mr-2">
-                            <Link to='/features'>Features</Link>
+                            <Link to='/features'>Features </Link>
                         </li>
                         <li className="nav-item mr-2">
-                            <Link to='/contact'>Contact</Link>
+                            <Link to='/contact'>Contact </Link>
+                        </li>
+                        <li className="nav-item mr-2">
+                            <a href="https://medium.com/pavcoding" target="_blank">Medium</a>
                         </li>
                     </ul>
                     <span className="navbar-text">
