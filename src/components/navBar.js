@@ -6,7 +6,6 @@ import {
 //css
 import '../Assets/css/navBar.css'
 
-
 export class NavBar extends React.Component { 
     render() {
         return (
