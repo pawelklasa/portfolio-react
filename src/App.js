@@ -22,7 +22,6 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="bg">
           <div className="long">
               <NavBar />
                   <Route exact path='/' component={Home} />
@@ -32,7 +31,6 @@ class App extends Component {
                   <Route exact path='/sky' component={Sky} />
               <Footer />
           </div>
-        </div>
       </Router>
     );
   }
