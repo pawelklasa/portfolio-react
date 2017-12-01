@@ -13,7 +13,7 @@ export class Home extends React.Component {
             <div className="bg">
                 <div className="intro-text">
                     <div className="text-container pr-2 pl-2">
-                        <h1>I design and code the web</h1>
+                        <h1>text</h1>
                     </div>
                 </div> 
             </div>  
