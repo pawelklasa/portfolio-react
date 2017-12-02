@@ -44,7 +44,7 @@ class FadeIn extends Component {
   }
 }
 
-//
+//animations in a componnt
 
 const MatchWithFade = ({ component: Component, transition, ...rest }) => (
   <Route {...rest} render={(matchProps) => (
@@ -53,8 +53,6 @@ const MatchWithFade = ({ component: Component, transition, ...rest }) => (
     </FadeIn>
   )} />
 )
-
-
 
 class App extends Component {
   render() {
