@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import {
     BrowserRouter as Router,
     Route,
@@ -17,6 +18,43 @@ import { Features } from './components/pages/features';
 import { Contact } from './components/pages/contact';
 import { Sky } from './components/pages/sky';
 
+//
+
+class FadeIn extends Component {
+  componentDidMount() {
+    console.log('componentDidMount', this.displayName);
+    var that = this;
+
+    var elem = ReactDOM.findDOMNode(that);
+
+    elem.style.opacity = 0;
+    window.requestAnimationFrame(function () {
+
+      elem.style.transition = that.props.transition || 'opacity 2000ms';
+      elem.style.opacity = 1;
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        {this.props.children}
+      </div>
+    )
+  }
+}
+
+//
+
+const MatchWithFade = ({ component: Component, transition, ...rest }) => (
+  <Route {...rest} render={(matchProps) => (
+    <FadeIn transition={transition}>
+    <Component {...matchProps} />
+    </FadeIn>
+  )} />
+)
+
+
 
 class App extends Component {
   render() {
@@ -25,10 +63,10 @@ class App extends Component {
           <div className="long">
               <NavBar />
                   <Route exact path='/' component={Home} />
-                  <Route exact path='/projects' component={Projects} />
-                  <Route exact path='/features' component={Features} />
-                  <Route exact path='/contact' component={Contact} />
-                  <Route exact path='/sky' component={Sky} />
+                  <MatchWithFade exact path='/projects' component={Projects} transition='opacity 2000ms' />
+                  <MatchWithFade exact path='/features' component={Features} transition='opacity 2000ms' />
+                  <MatchWithFade exact path='/contact' component={Contact} transition='opacity 2000ms' />
+                  <MatchWithFade exact path='/sky' component={Sky} transition='opacity 2000ms' />
               <Footer />
           </div>
       </Router>
