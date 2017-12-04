@@ -16,7 +16,7 @@ export class NavBar extends React.Component {
                 </button>
                 <div className="collapse navbar-collapse flex-row-reverse" id="navbarText">
                     <ul className="navbar-nav">
-                        <li className="nav-item active mr-2">
+                        <li className="nav-item active mr-3">
                             <Link to='/projects'>Projects </Link>
                         </li>
                         <li className="nav-item mr-3">
