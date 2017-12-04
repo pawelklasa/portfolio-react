@@ -60,7 +60,7 @@ class App extends Component {
       <Router>
           <div className="long">
               <NavBar />
-                  <Route exact path='/' component={Home} />
+                  <MatchWithFade exact path='/' component={Home} />
                   <MatchWithFade exact path='/projects' component={Projects} transition='opacity 2000ms' />
                   <MatchWithFade exact path='/features' component={Features} transition='opacity 2000ms' />
                   <MatchWithFade exact path='/contact' component={Contact} transition='opacity 2000ms' />
