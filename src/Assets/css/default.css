@@ -39,3 +39,13 @@ body, html {
     background-color: #fff;
     opacity: 0.5;
 }
+
+.navbar-toggler {
+    padding: 0px;
+ 
+}
+
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}
