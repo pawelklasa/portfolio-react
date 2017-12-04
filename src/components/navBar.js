@@ -15,23 +15,24 @@ export class NavBar extends React.Component {
                     <span className="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active mr-2">
+                    
+                    <span class="navbar-text">
+                    <ul className="navbar-nav">
+                        <li className="nav-item active mr-3">
                             <Link to='/projects'>Projects </Link>
                         </li>
-                        <li className="nav-item mr-2">
+                        <li className="nav-item mr-3">
                             <Link to='/features'>Features </Link>
                         </li>
-                        <li className="nav-item mr-2">
+                        <li className="nav-item mr-3">
                             <Link to='/contact'>Contact </Link>
                         </li>
-                        <li className="nav-item mr-2">
+                        <li className="nav-item mr-3">
                             <a href="https://medium.com/pavcoding" target="_blank" rel="noopener noreferrer">Medium</a>
                         </li>
                     </ul>
-                    <span className="navbar-text">
-                        View this on <a href="https://github.com/pawelklasa/portfolio-react" target="_blank" rel="noopener noreferrer">GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
                     </span>
+                    
                 </div>
             </nav>
         )
