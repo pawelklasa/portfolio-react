@@ -35,7 +35,6 @@ class FadeIn extends Component {
     });
   }
 
-
   render() {
     return (
       <div>
