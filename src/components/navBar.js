@@ -14,8 +14,8 @@ export class NavBar extends React.Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav mr-auto">
+                <div className="collapse navbar-collapse flex-row-reverse" id="navbarText">
+                    <ul className="navbar-nav">
                         <li className="nav-item active mr-2">
                             <Link to='/projects'>Projects </Link>
                         </li>
@@ -29,9 +29,9 @@ export class NavBar extends React.Component {
                             <a href="https://medium.com/pavcoding" target="_blank" rel="noopener noreferrer">Medium</a>
                         </li>
                     </ul>
-                    <span className="navbar-text">
+                    {/* <span className="navbar-text">
                         View this on <a href="https://github.com/pawelklasa/portfolio-react" target="_blank" rel="noopener noreferrer">GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
-                    </span>
+                    </span> */}
                 </div>
             </nav>
         )
