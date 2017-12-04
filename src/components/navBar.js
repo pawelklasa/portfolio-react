@@ -29,9 +29,7 @@ export class NavBar extends React.Component {
                             <a href="https://medium.com/pavcoding" target="_blank" rel="noopener noreferrer">Medium</a>
                         </li>
                     </ul>
-                    {/* <span className="navbar-text">
-                        View this on <a href="https://github.com/pawelklasa/portfolio-react" target="_blank" rel="noopener noreferrer">GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
-                    </span> */}
+                    {/*  */}
                 </div>
             </nav>
         )
