@@ -11,13 +11,13 @@ export class NavBar extends React.Component {
         return (
             <nav className="navbar navbar-expand-lg">
                 <Link to='/'><span class="navbar-brand"><i class="fa fa-terminal" aria-hidden="true"></i> pav_ka</span></Link>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarText">
+                <div className="collapse navbar-collapse flex-row-reverse" id="navbarText">
                     
                     <span class="navbar-text">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav mr-auto">
                         <li className="nav-item active mr-3">
                             <Link to='/projects'>Projects </Link>
                         </li>
