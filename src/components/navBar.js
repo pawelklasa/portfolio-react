@@ -9,7 +9,7 @@ import '../Assets/css/navBar.css'
 export class NavBar extends React.Component { 
     render() {
         return (
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg fixed-top">
                 <Link to='/'><span class="navbar-brand"><i class="fa fa-terminal" aria-hidden="true"></i> pav_ka</span></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>

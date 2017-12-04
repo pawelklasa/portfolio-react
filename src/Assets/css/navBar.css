@@ -2,10 +2,8 @@
     border-bottom: 1px solid #eeecdf;
     box-shadow: 0px 1px 0px #dddbcb;
     background-color: #ffffff;
-    position: fixed;
     left: 0;
     right: 0;
-    top: 0;
     z-index: 1000;
     width: 100%;
 } 
