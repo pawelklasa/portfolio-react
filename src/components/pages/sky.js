@@ -10,7 +10,7 @@ export class Sky extends React.Component {
             
             <div className="container-fluid">
                 <div classNAme="bg-light">
-                    <h2 className="pl-0 pr-0 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1 mt-2 mb-3">
+                    <h2 className="pl-0 pr-0 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1 mb-3 sky">
                         British Sky Broadcasting
                     </h2>
                         {/* <p className="pl-0 pr-0 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1">some content goes here</p> */}
