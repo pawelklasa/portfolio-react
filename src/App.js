@@ -47,7 +47,6 @@ class FadeIn extends Component {
 
 //animations in a componnt
 
-
 const MatchWithFade = ({ component: Component, transition, ...rest }) => (
   <Route {...rest} render={(matchProps) => (
     <FadeIn transition={transition}>
