@@ -1,12 +1,12 @@
 import React from 'react'
 import {
     Link
-  } from 'react-router-dom';
+} from 'react-router-dom';
 
 //css
 import '../Assets/css/navBar.css'
 
-export class NavBar extends React.Component { 
+export class NavBar extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg fixed-top">

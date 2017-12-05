@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-export class Features extends React.Component { 
+export class Features extends React.Component {
     render() {
         return (
             <div className="container">

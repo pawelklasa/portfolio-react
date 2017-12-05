@@ -2,12 +2,12 @@ import React from 'react'
 import {
     // eslint-disable-next-line
     Link
-  } from 'react-router-dom';
+} from 'react-router-dom';
 
 //css
 import '/Users/pawelklasa/Desktop/portfolio-react/src/Assets/css/projects.css';
 
-export class Projects extends React.Component { 
+export class Projects extends React.Component {
     render() {
         return (
             <div className="container-fluid">
