@@ -7,7 +7,7 @@ import {
     Link
   } from 'react-router-dom';
 //css
-import './Assets/css/default.css'
+import '/Users/pawelklasa/Desktop/portfolio-react/src/Assets/css/default.css'
 
 //components
 import { NavBar } from './components/navBar';

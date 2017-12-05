@@ -1,8 +1,7 @@
 .card {
-    border: none;
-    background-color: #e5e3d3;
-    /* overflow: hidden; */
-}
+  border: none;
+  background-color: #e5e3d3;
+  /* overflow: hidden; */ }
 
 /* .card:hover img {   
     position: relative;

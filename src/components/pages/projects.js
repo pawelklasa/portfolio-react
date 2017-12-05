@@ -5,7 +5,7 @@ import {
   } from 'react-router-dom';
 
 //css
-import '/Users/pawel.klasa/Desktop/portfolio-react/src/Assets/css/projects.css';
+import '/Users/pawelklasa/Desktop/portfolio-react/src/Assets/css/projects.css';
 
 export class Projects extends React.Component { 
     render() {
@@ -37,7 +37,7 @@ export class Projects extends React.Component {
                         </p>
                     </div>
                     <div className="card col-sm-12 col-md-6 col-lg-3 pl-0 pr-0 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1">
-                        <img src="http://vunature.com/wp-content/uploads/2016/11/sea-ocean-mountains-sunlight-landscape-hd-nature-image-3d-1920x1080.jpg" class="img-fluid" alt="Responsive" />
+                        <img src="http://xinature.com/wp-content/uploads/2017/03/fields-trees-agriculture-rice-hills-landscapes-plots-rivers-vietnam-green-wallpapers-1920x1080.jpg" class="img-fluid" alt="Responsive" />
                         <p>
                             Title
                         </p>

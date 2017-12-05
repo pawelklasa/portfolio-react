@@ -1,0 +1,104 @@
+.navbar {
+    border-bottom: 1px solid #eeecdf;
+    box-shadow: 0px 1px 0px #dddbcb;
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+} 
+
+.navbar-brand {
+
+    font-size: 16px;
+    color: #213347;
+}
+
+.navbar-text {
+    font-size: 12px;
+}
+
+li {
+    font-size: 14px;
+}
+
+a {
+    color:#db413e;
+    /* First we need to help some browsers along for this to work.
+       Just because a vendor prefix is there, doesn't mean it will
+       work in a browser made by that vendor either, it's just for
+       future-proofing purposes I guess. */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+  }
+  
+  a:hover { 
+      text-decoration: none;
+      color:#fff; 
+}
+
+.sky {
+    margin-top: 80px;
+}
+
+
+
+.blinking-cursor {
+    font-weight: 100;
+    font-size: 16px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }

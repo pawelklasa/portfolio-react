@@ -1,0 +1,51 @@
+body, html {
+    height: 100px;
+    margin: 0;
+    background-color: #e5e3d3;
+    font-family: 'Open Sans', sans-serif;
+    color: #213347; 
+}
+
+.footer {
+    font-size: 11px;
+    background-color: #fafafa;
+    position: fixed;
+    bottom: 0px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("https://solutions.sftcdn.net/images/72616-0abf2.jpg");
+
+    /* Full height */
+    height: 100px; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.navbar-toggler {
+    padding: 0px;
+ 
+}
+
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}
