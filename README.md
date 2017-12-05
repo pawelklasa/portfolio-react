@@ -15,6 +15,13 @@ npm start
 
 ```
 
+## SCSS install
+```bash
+npm install --save node-sass-chokidar
+```
+Documentation:
+https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc
+
 ## Style guides
 
 React
