@@ -1,2 +1,14 @@
 //remember to import
 //@import "./shared.scss";
+
+$dark-purple: #451571;
+$white: #fff;
+$light-grey: #fafafa;
+
+body, html {
+    height: 100px;
+    margin: 0;
+    background-color: $dark-purple;
+    font-family: 'Open Sans', sans-serif;
+    color: $white; 
+}

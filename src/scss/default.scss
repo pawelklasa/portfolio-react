@@ -1,17 +1,4 @@
-body, html {
-    height: 100px;
-    margin: 0;
-    background-color: #e5e3d3;
-    font-family: 'Open Sans', sans-serif;
-    color: #213347; 
-}
-
-.footer {
-    font-size: 11px;
-    background-color: #fafafa;
-    position: fixed;
-    bottom: 0px;
-}
+@import "./shared.scss";
 
 .bg {
     /* The image used */
