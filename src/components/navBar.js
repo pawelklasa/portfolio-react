@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 
 //css
-import '../assets/css/navBar.css'
+import '../css/scss/navBar.css'
 
 export class NavBar extends React.Component {
     render() {
