@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 
 //css
-import './assets/css/default.css'
+import './css/scss/default.css'
 
 //components
 import { NavBar } from './components/navBar';

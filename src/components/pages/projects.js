@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 //css
-import '../../assets/css/projects.css';
+import '../../css/scss/projects.css';
 
 export class Projects extends React.Component {
     render() {
