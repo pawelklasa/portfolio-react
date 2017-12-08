@@ -12,8 +12,6 @@ export class Contact extends React.Component {
     render() {
         return (
 			<div className="container">
-            
-
 				<h2 className='padding'>Projects</h2>
 				<div class="grid">
 				<figure class="effect-julia">
