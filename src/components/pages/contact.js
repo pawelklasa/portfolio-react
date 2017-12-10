@@ -12,6 +12,7 @@ export class Contact extends React.Component {
     render() {
         return (
 			<div className="container">
+			
 				<h2 className='padding'>Projects</h2>
 				<div class="grid">
 				<figure class="effect-julia">
@@ -61,8 +62,6 @@ export class Contact extends React.Component {
 						</figcaption>			
 					</figure>
 					</div>
-			
-
 				{/* <div class="grid row card-deck">
 					<figure class="card effect-lily col-12 col-xs-12 col-md-12 col-lg-4">
 						<img src="http://www.jasondunn.com/images/Cape-Breton-Lighthouse-16-9-HDR.jpg" alt="img12"/>
