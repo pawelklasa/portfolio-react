@@ -3,9 +3,10 @@ import {
     Link
 } from 'react-router-dom';
 
-//css
+// css 
 import '../css/scss/shared.css'
 import '../css/scss/navBar.css'
+
 import '../css/scss/footer.css'
 
 export class NavBar extends React.Component {
