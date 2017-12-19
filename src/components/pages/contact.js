@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 
 //css
+
 import '../../css/scss/lily.css';
 
 export class Contact extends React.Component {
