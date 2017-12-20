@@ -21,6 +21,7 @@ export class Contact extends React.Component {
 						<figcaption>
 							<h2>Passionate <span>Julia</span></h2>
 							<div>
+								
 								<p>Julia dances in the deep dark</p>
 								<p>She loves the smell of the ocean</p>
 								<p>And dives into the morning light</p>
